@@ -4,7 +4,7 @@
 
 
 baseurl = "https://muuuuuuuuuu.github.io/myproject"
-title = "Kiera"
+title = "muuuuuuuuuu blog"
 copyright = "Copyright &copy; 2017 - Author Name"
 canonifyurls = true
 theme = "kiera"
@@ -18,12 +18,13 @@ pygmentsCodeFences = true
 
 [author]
     name = ""
-    github = ""
+    github = "https://github.com/muuuuuuuuuu"
     gitlab = ""
     linkedin = ""
     facebook = ""
-    twitter = ""
+    twitter = "https://twitter.com/muuuuuuuuuu7/with_replies"
     instagram = ""
+    
 
 [params]
-    tagline = "A Hugo theme for creative and technical writing"
+    tagline = "プログラミング勉強中のアウトプットブログ"
