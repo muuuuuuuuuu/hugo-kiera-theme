@@ -3,11 +3,12 @@
 # title = "My New Hugo Site"
 
 
-baseurl = "https://www.example.org/"
+baseurl = "https://muuuuuuuuuu.github.io/myproject"
 title = "Kiera"
 copyright = "Copyright &copy; 2017 - Author Name"
 canonifyurls = true
 theme = "kiera"
+publishDir = "docs"
 
 paginate = 3
 
