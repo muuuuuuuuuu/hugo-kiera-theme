@@ -1,45 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>muuuuuuuuuu blog</title>
-    <link>https://muuuuuuuuuu.github.io/myproject/</link>
-    <description>Recent content on muuuuuuuuuu blog</description>
+    <title>Posts on muuuuuuuuuu blog</title>
+    <link>https://muuuuuuuuuu.github.io/myproject/posts/</link>
+    <description>Recent content in Posts on muuuuuuuuuu blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2017 - Author Name</copyright>
-    <lastBuildDate>Wed, 09 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Nov 2017 10:57:55 -0500</lastBuildDate>
     
-	<atom:link href="https://muuuuuuuuuu.github.io/myproject/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://muuuuuuuuuu.github.io/myproject/posts/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>profile</title>
-      <link>https://muuuuuuuuuu.github.io/myproject/about/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://muuuuuuuuuu.github.io/myproject/about/</guid>
-      <description>・中村勝也(muuuuuuuuuu)、32歳
-・ある日プログラミングとゆうものを知り、それまでパソコンもほとんど触った事がなかったんですが、そこからITやプログラミングの事を調べ、調べていく内に沸々と情熱が湧いてきてプログラミングの事をもっと知りたい！と思いすぐにプログラミングスクールに入塾してパソコン(Mac Book Pro)もすぐに購入。 勉強に集中したくて2ヶ月後に会社を退社。
-エラーを解決出来た時や何かを作れた時の喜びが今までにない嬉しさと興奮で勉強が楽しくなっきました。
-もっともっと色んな事を覚えてもっともっと色んなサービスが作れたら良いなって思い、1年後の自分にワクワクしながら今も毎日勉強中です！
-・好きなことわざ
-虎穴にいらずんば虎子を得ず！
-思いたったが吉日、ならばその日以降は全て凶日！
-&amp;ndash;勉強してきた事&amp;ndash;
-・言語
-Ruby
-・フレームワーク
-Ruby on Rails
-・バージョン管理
-Github,Bitbucket
-・エディタ
-Atom
-・etc..
-プロゲート(HTML,CSS,Ruby,JS,Ruby on Rails,Python,PHP,Command Line,Git,Sass)
-ドットインストール(基礎全般)
-Railsチュートリアル
-yukicoder(星1~2)
-MacOS</description>
-    </item>
     
     <item>
       <title>Style Guide</title>

@@ -3,17 +3,107 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://muuuuuuuuuu.github.io/myproject/posts/</loc>
+    <lastmod>2017-11-14T10:57:55-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muuuuuuuuuu.github.io/myproject/about/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muuuuuuuuuu.github.io/myproject/posts/style-guide/</loc>
+    <lastmod>2017-11-14T10:57:55-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muuuuuuuuuu.github.io/myproject/posts/image-content/</loc>
+    <lastmod>2017-11-14T08:08:17-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muuuuuuuuuu.github.io/myproject/posts/creating-a-new-theme/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muuuuuuuuuu.github.io/myproject/posts/goisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muuuuuuuuuu.github.io/myproject/posts/hugoisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muuuuuuuuuu.github.io/myproject/posts/migrate-from-jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://muuuuuuuuuu.github.io/myproject/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://muuuuuuuuuu.github.io/myproject/tags/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://muuuuuuuuuu.github.io/myproject/categories/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://muuuuuuuuuu.github.io/myproject/tags/go/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://muuuuuuuuuu.github.io/myproject/tags/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://muuuuuuuuuu.github.io/myproject/categories/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://muuuuuuuuuu.github.io/myproject/tags/hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://muuuuuuuuuu.github.io/myproject/tags/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://muuuuuuuuuu.github.io/myproject/tags/templates/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://muuuuuuuuuu.github.io/myproject/tags/themes/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://muuuuuuuuuu.github.io/myproject/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
