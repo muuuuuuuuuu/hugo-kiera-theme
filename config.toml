@@ -3,7 +3,7 @@
 # title = "My New Hugo Site"
 
 
-baseurl = "https://muuuuuuuuuu.github.io/myproject"
+baseurl = "https://muuuuuuuuuu.github.io/myproject3"
 title = "muuuuuuuuuu blog"
 copyright = "Copyright &copy; 2017 - Author Name"
 canonifyurls = true
@@ -24,7 +24,7 @@ pygmentsCodeFences = true
     facebook = ""
     twitter = "https://twitter.com/muuuuuuuuuu7/with_replies"
     instagram = ""
-    
+
 
 [params]
     tagline = "プログラミング勉強中のアウトプットブログ"
