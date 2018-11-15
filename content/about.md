@@ -21,18 +21,6 @@ meta = "false"
 
 --**こちらがPort Folioです**--
 
-・**キングダムのコミニティサト**<br>https://arcane-ocean-64138.herokuapp.com/
+・**キングダムのコミニティサイト**<br>https://arcane-ocean-64138.herokuapp.com/
 
-・**hugoで作ったPort Folio サイト**<br>https://muuuuuuuuuu.<br>github.io/Myproject/
-
-<!-- Hugo is a static site engine written in Go.
-
-
-It makes use of a variety of open source projects including:
-
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio). -->
+・**hugoで作ったPort Folioサイト**<br>https://muuuuuuuuuu.github.io/Myproject/  
