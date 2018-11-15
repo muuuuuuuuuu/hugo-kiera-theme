@@ -6,7 +6,7 @@ weight = "20"
 meta = "false"
 +++
 
-・**中村勝也(muuuuuuuuuu)、32歳**<br>**連絡先**・・・[Email](mailto:muuuuu10uuuuu@icloud.com)
+・**中村勝也(muuuuuuuuuu)、32歳**<br>**連絡先**[Email](mailto:muuuuu10uuuuu@icloud.com)
 
 ・ある日**プログラミング**とゆうものを知り、それまでパソコンもほとんど触った事がなかったんですが、そこからITやプログラミングの事を調べ、調べていく内に**沸々と情熱が湧いてきて**プログラミングの事をもっと知りたい！と思いすぐにプログラミングスクールに入塾してパソコン(Mac Book Pro)もすぐに購入。
 <br>勉強に集中したくて2ヶ月後に会社を退社。<br>エラーを解決出来た時や何かを作れた時の喜びが今までにない**嬉しさと興奮**で勉強が楽しくなっきました。<br>もっともっと色んな事を覚えてもっともっと色んなサービスが作れたら良いなって思い、1年後の自分に**ワクワク**しながら今も**毎日勉強中**です！
@@ -23,7 +23,7 @@ meta = "false"
 
 ・**キングダムのコミニティサト**<br>https://arcane-ocean-64138.herokuapp.com/
 
-・**hugoで作ったPort Folio サイト**<br>https://muuuuuuuuuu.github.io/Myproject/
+・**hugoで作ったPort Folio サイト**<br>https://muuuuuuuuuu.<br>github.io/Myproject/
 
 <!-- Hugo is a static site engine written in Go.
 
