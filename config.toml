@@ -10,7 +10,7 @@ canonifyurls = true
 theme = "kiera"
 publishDir = "docs"
 
-paginate = 3
+paginate = 10
 
 summaryLength = 30
 enableEmoji = true
