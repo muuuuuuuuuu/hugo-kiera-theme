@@ -5,20 +5,20 @@
     <link>https://muuuuuuuuuu.github.io/myproject3/tags/hugo/</link>
     <description>Recent content in Hugo on muuuuuuuuuu blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright &amp;copy; 2017 - Author Name</copyright>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <copyright>Copyright &amp;copy; 2018 - muuuuuuuuuu</copyright>
+    <lastBuildDate>Thu, 15 Nov 2018 11:01:03 +0900</lastBuildDate>
     
 	<atom:link href="https://muuuuuuuuuu.github.io/myproject3/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://muuuuuuuuuu.github.io/myproject3/posts/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>hugoの編集の仕方</title>
+      <link>https://muuuuuuuuuu.github.io/myproject3/posts/first/</link>
+      <pubDate>Thu, 15 Nov 2018 11:01:03 +0900</pubDate>
       
-      <guid>https://muuuuuuuuuu.github.io/myproject3/posts/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.</description>
+      <guid>https://muuuuuuuuuu.github.io/myproject3/posts/first/</guid>
+      <description>-- やっとこさhugoでアウトプットブログが出来たのであれやこれやとhugoについてまとめてみる！初めてのMarkdown記法だからかなり見ずらいかもしれないけどすいません。Markdown記法も勉強しないと！
+まず、自分はhugoディレクトリがあるからそこでhugo new site muublogそれからcd muublog宣言する！git initテーマを追加するgit clone https://github.com/avianto/hugo-kiera.git kiera追加をしたらthemesディレクトリに移動するcd themes今はthemesディレクトリが空だからgit submodule add https://github.com/avianto/hugo-kiera.git kieraそしてcd ..atomで開くatom .themesのconfig.tomlをコピーして、muublogのconfig.tomlに貼り付ける！</description>
     </item>
     
   </channel>

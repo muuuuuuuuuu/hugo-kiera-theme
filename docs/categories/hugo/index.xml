@@ -12,12 +12,13 @@
     
     
     <item>
-      <title>確認2</title>
+      <title>hugoの編集の仕方</title>
       <link>https://muuuuuuuuuu.github.io/myproject3/posts/first/</link>
       <pubDate>Thu, 15 Nov 2018 11:01:03 +0900</pubDate>
       
       <guid>https://muuuuuuuuuu.github.io/myproject3/posts/first/</guid>
-      <description>しっかりと出来ているか</description>
+      <description>-- やっとこさhugoでアウトプットブログが出来たのであれやこれやとhugoについてまとめてみる！初めてのMarkdown記法だからかなり見ずらいかもしれないけどすいません。Markdown記法も勉強しないと！
+まず、自分はhugoディレクトリがあるからそこでhugo new site muublogそれからcd muublog宣言する！git initテーマを追加するgit clone https://github.com/avianto/hugo-kiera.git kiera追加をしたらthemesディレクトリに移動するcd themes今はthemesディレクトリが空だからgit submodule add https://github.com/avianto/hugo-kiera.git kieraそしてcd ..atomで開くatom .themesのconfig.tomlをコピーして、muublogのconfig.tomlに貼り付ける！</description>
     </item>
     
   </channel>
