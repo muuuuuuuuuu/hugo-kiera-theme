@@ -5,7 +5,7 @@
 
 baseurl = "https://muuuuuuuuuu.github.io/myproject3"
 title = "muuuuuuuuuu blog"
-copyright = "Copyright &copy; 2017 - Author Name"
+copyright = "Copyright &copy; 2018 - muuuuuuuuuu"
 canonifyurls = true
 theme = "kiera"
 publishDir = "docs"
