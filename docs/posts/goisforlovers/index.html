@@ -222,23 +222,23 @@ range.</p>
 
 <p><strong>Example 1: Using Context</strong></p>
 
-<pre><code>{{ range array }} 
+<pre><code>{{ range array }}
     {{ . }}
 {{ end }}
 </code></pre>
 
 <p><strong>Example 2: Declaring value variable name</strong></p>
 
-<pre><code>{{range $element := array}} 
-    {{ $element }} 
+<pre><code>{{range $element := array}}
+    {{ $element }}
 {{ end }}
 </code></pre>
 
 <p><strong>Example 2: Declaring key and value variable name</strong></p>
 
 <pre><code>{{range $index, $element := array}}
-    {{ $index }} 
-    {{ $element }} 
+    {{ $index }}
+    {{ $element }}
 {{ end }}
 </code></pre>
 
@@ -262,7 +262,7 @@ logic in Go Templates. Like range, each statement is closed with <code>end</code
 
 <p><strong>Example 2: If -&gt; Else</strong></p>
 
-<pre><code>{{ if isset .Params &quot;alt&quot; }} 
+<pre><code>{{ if isset .Params &quot;alt&quot; }}
     {{ index .Params &quot;alt&quot; }}
 {{else}}
     {{ index .Params &quot;caption&quot; }}
@@ -287,7 +287,7 @@ and skips the block if the variable is absent.</p>
 
 <p><strong>Example 5: If -&gt; Else If</strong></p>
 
-<pre><code>{{ if isset .Params &quot;alt&quot; }} 
+<pre><code>{{ if isset .Params &quot;alt&quot; }}
     {{ index .Params &quot;alt&quot; }}
 {{ else if isset .Params &quot;caption&quot; }}
     {{ index .Params &quot;caption&quot; }}
@@ -338,7 +338,7 @@ Stuff Here
 <p>Could be rewritten as</p>
 
 <pre><code>{{  isset .Params &quot;caption&quot; | or isset .Params &quot;title&quot; | or isset .Params &quot;attr&quot; | if }}
-Stuff Here 
+Stuff Here
 {{ end }}
 </code></pre>
 
