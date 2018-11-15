@@ -10,23 +10,5 @@
 	<atom:link href="https://muuuuuuuuuu.github.io/myproject3/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>Development</title>
-      <link>https://muuuuuuuuuu.github.io/myproject3/categories/development/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://muuuuuuuuuu.github.io/myproject3/categories/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Golang</title>
-      <link>https://muuuuuuuuuu.github.io/myproject3/categories/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://muuuuuuuuuu.github.io/myproject3/categories/golang/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>

@@ -1,6 +1,7 @@
 +++
 title = "Image Style Guide"
 date = 2017-11-14T08:08:17-05:00
+draft = true
 tags = []
 categories = []
 +++
