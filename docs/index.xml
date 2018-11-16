@@ -48,7 +48,10 @@ yukicoder(星1~2)</description>
       
       <guid>https://muuuuuuuuuu.github.io/myproject3/posts/first/</guid>
       <description>-- やっとこさhugoでアウトプットブログが出来たのであれやこれやとhugoについてまとめてみる！初めてのMarkdown記法だからかなり見ずらいかもしれないけどすいません。Markdown記法も勉強しないと！
-まず、自分はhugoディレクトリがあるからそこでhugo new site muublogそれからcd muublog宣言する！git initテーマを追加するgit clone https://github.com/avianto/hugo-kiera.git kiera追加をしたらthemesディレクトリに移動するcd themes今はthemesディレクトリが空だからgit submodule add https://github.com/avianto/hugo-kiera.git kieraそしてcd ..atomで開くatom .themesのconfig.tomlをコピーして、muublogのconfig.tomlに貼り付ける！</description>
+まず、自分はhugoディレクトリがあるからそこでhugo new site muublogそれからcd muublog宣言する！git initテーマを追加するgit clone https://github.com/avianto/hugo-kiera.git kiera追加をしたらthemesディレクトリに移動するcd themes今はthemesディレクトリが空だからgit submodule add https://github.com/avianto/hugo-kiera.git kieraそしてcd ..atomで開くatom .themesのconfig.tomlをコピーして、muublogのconfig.tomlに貼り付ける！
+それから新しい投稿を追加hugo new posts/first-post.mdこれでhugo server -D出てきたlocalhostのURLをブラウザに貼り付けたら表示される。
+次に新しくリポジトリを作ってpushする。git add .
+git commit -m &amp;ldquo;first commit&amp;rdquo;</description>
     </item>
     
   </channel>
