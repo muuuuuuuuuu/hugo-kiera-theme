@@ -6,10 +6,22 @@
     <description>Recent content in Hugo on muuuuuuuuuu blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2018 - muuuuuuuuuu</copyright>
-    <lastBuildDate>Thu, 15 Nov 2018 11:01:03 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 16 Nov 2018 16:25:17 +0900</lastBuildDate>
     
 	<atom:link href="https://muuuuuuuuuu.github.io/myproject3/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>hugoの編集</title>
+      <link>https://muuuuuuuuuu.github.io/myproject3/posts/secound-post/</link>
+      <pubDate>Fri, 16 Nov 2018 16:25:17 +0900</pubDate>
+      
+      <guid>https://muuuuuuuuuu.github.io/myproject3/posts/secound-post/</guid>
+      <description>hugoのインストールから本番デプロイまでをまとめられたから次はhugoの編集の仕方を少しまとめてみようと思う！
+新しく記事を作成
+hugo new posts/secound.md (secoudのとこはなんでも良い)  postsディレクトリにsecound.mdが追加される、 これはその中身
+title = &amp;quot;secound&amp;quot; date = 2018-11-16T16:25:17+09:00 draft = true(falseにすると本番にデプロイ出来る) tags = [] categories = []  tags = [] categories = []  これは</description>
+    </item>
     
     <item>
       <title>hugoのテーマをインストールから本番デプロイまで</title>

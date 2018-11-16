@@ -60,13 +60,13 @@
 
 <article>
 
-    <h1>hugoのテーマをインストールから本番デプロイまで</h1>
+    <h1>hugoの編集</h1>
 
     
         <aside>
     <ul>
         <li>
-            <time class="post-date" datetime="2018-11-15T11:01:03&#43;09:00">Nov 15, 2018</time>
+            <time class="post-date" datetime="2018-11-16T16:25:17&#43;09:00">Nov 16, 2018</time>
         </li>
         
         
@@ -97,91 +97,50 @@
 </aside>
     
 
-    <!-- <pre></pre> -->
-
-<p>やっとこさhugoで<strong>アウトプットブログ</strong>が出来たのであれやこれやとhugoについてまとめてみる！初めての<strong>Markdown記法</strong>だからかなり見ずらいかもしれないけどすいません。<strong>Markdown記法</strong>も勉強しないと！</p>
+    <p>hugoのインストールから本番デプロイまでをまとめられたから次はhugoの<strong>編集の仕方</strong>を少しまとめてみようと思う！</p>
 
 <hr />
 
-<p>まず、自分はhugoディレクトリがあるからそこで</p>
+<p><strong>新しく記事を作成</strong></p>
 
-<pre><code>hugo new site muublog
+<pre><code>hugo new posts/secound.md
+(secoudのとこはなんでも良い)
 </code></pre>
 
-<p>それから</p>
+<p>postsディレクトリにsecound.mdが追加される、
+これはその中身</p>
 
-<pre><code>cd muublog
+<pre><code>title = &quot;secound&quot;
+date = 2018-11-16T16:25:17+09:00
+draft = true(falseにすると本番にデプロイ出来る)
+tags = []
+categories = []
 </code></pre>
 
-<p>宣言する！</p>
-
-<pre><code>git init
+<pre><code>tags = []
+categories = []
 </code></pre>
 
-<p>テーマを追加する</p>
+<p>これは</p>
 
-<pre><code>git clone https://github.com/avianto/hugo-kiera.git kiera
+<pre><code>tags = [&quot;hugo&quot;]
+categories = [&quot;hugo&quot;]
 </code></pre>
 
-<p>追加をしたらthemesディレクトリに移動する</p>
-
-<pre><code>cd themes
-</code></pre>
-
-<p>今はthemesディレクトリが空だから</p>
-
-<pre><code>git submodule add https://github.com/avianto/hugo-kiera.git kiera
-</code></pre>
-
-<p>そして</p>
-
-<pre><code>cd ..
-</code></pre>
-
-<p>atomで開く</p>
-
-<pre><code>atom .
-</code></pre>
-
-<p>themesのconfig.tomlをコピーして、muublogのconfig.tomlに貼り付ける！<br>それから新しい投稿を追加</p>
-
-<pre><code>hugo new posts/first-post.md
-</code></pre>
-
-<p>これで</p>
-
-<pre><code>hugo server -D
-</code></pre>
-
-<p>出てきたlocalhostのURLをブラウザに貼り付けたら表示される。<br>次に新しくリポジトリを作ってpushする。</p>
-
-<pre><code>git add .
-git commit -m &quot;first commit&quot;
-git remote add origin git@github.com:yourname/リポジトリ名.git
-git push -u origin master
-</code></pre>
-
-<p>次は本番環境で表示できる様にしてみる！<br>config.tomlを少しいじる</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-config.toml" data-lang="config.toml"><span style="color:#a6e22e">baseurl</span> = <span style="color:#e6db74">&#34;https://yourname.github.io/リポジトリ名&#34;</span>
-<span style="color:#a6e22e">publishDir</span> = <span style="color:#e6db74">&#34;docs&#34;</span></code></pre></div>
-<p>を追加</pre>hugoコマンドでhtmlなどのファイルを作成</p>
+<p>の様にしてから</p>
 
 <pre><code>hugo -t theme名
 </code></pre>
 
-<pre><code>git add .
-git commit -m &quot;コミット名&quot;
-git checkout master
-git merge ブランチ名
-git push origin master
-</code></pre>
+<p>にすると、<br>categoriesディレクトリとtagsディレクトリに勝手に生成してくれる。</p>
 
-<p>次にリポジトリの設定を変更する<br>SettingからGithub pagesのSourceを<br>master branch/docs folderにしてsaveするとURLが吐き出される。</p>
+<hr />
 
-<pre><code>https://muuuuuuuuuu.github.io/myproject3/
-</code></pre>
+<p>topページの編集はconfig.toml</p>
 
-<p>こんな感じで本番にデプロイ出来ました！</p>
+<p>profileページの編集はabout.md</p>
+
+<p>blog &amp; autputページの編集は_index.md</p>
 
 
 </article>
@@ -190,10 +149,10 @@ git push origin master
 <section class="post-nav">
     <ul>
         
-        
         <li>
-            <a href="https://muuuuuuuuuu.github.io/myproject3/posts/secound-post/">hugoの編集 <i class="fa fa-chevron-circle-right"></i> </a>
+            <a href="https://muuuuuuuuuu.github.io/myproject3/posts/first/"><i class="fa fa-chevron-circle-left"></i> hugoのテーマをインストールから本番デプロイまで</a>
         </li>
+        
         
     </ul>
 </section>

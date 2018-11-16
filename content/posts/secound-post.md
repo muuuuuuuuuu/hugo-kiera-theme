@@ -1,7 +1,7 @@
 +++
 title = "hugoの編集"
 date = 2018-11-16T16:25:17+09:00
-draft = true
+draft = false
 tags = ["hugo"]
 categories = ["hugo"]
 +++
