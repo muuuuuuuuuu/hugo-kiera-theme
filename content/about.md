@@ -21,6 +21,8 @@ meta = "false"
 
 --**こちらがPort Folioです**--
 
-・**キングダムのコミニティサイト**<br>https://arcane-ocean-64138.herokuapp.com/
+載せる程でもないですが、過去の痕跡を辿るためにもあえて載せました。
+
+・**railsチュートリアルのsample.app**<br>https://arcane-ocean-64138.herokuapp.com/
 
 ・**hugoで作ったPort Folioサイト**<br>https://muuuuuuuuuu.github.io/Myproject/  
