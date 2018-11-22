@@ -6,10 +6,41 @@
     <description>Recent content in blog &amp; autoput on muuuuuuuuuu blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2018 - muuuuuuuuuu</copyright>
-    <lastBuildDate>Thu, 22 Nov 2018 11:33:12 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 22 Nov 2018 13:49:59 +0900</lastBuildDate>
     
 	<atom:link href="https://muuuuuuuuuu.github.io/myproject3/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ruby?の色んな言葉のあれこれ</title>
+      <link>https://muuuuuuuuuu.github.io/myproject3/posts/four/</link>
+      <pubDate>Thu, 22 Nov 2018 13:49:59 +0900</pubDate>
+      
+      <guid>https://muuuuuuuuuu.github.io/myproject3/posts/four/</guid>
+      <description>あやふやに覚えておいた色んな言葉をめっちゃ簡単にアウトプット
+-スクリプト言語-
+プログラムをテキストファイルそのままで実行できるプログラミング言語を指します。
+-コンパイラ言語-
+書いたプログラムをそのままでは実行することができず、CPが実行可能な形式に変換（コンパイル）する必要がある。 C言語などがコンパイル言語。
+-GUIとCLI-
+アプリのアイコンをダブルクリックして起動する様な事をGUIとゆう。 コマンドライン中心の環境をCLIとゆう。
+-倫理演算子-
+複数の条件式を組み合わせてより複雑な条件を表現するために用意されている演算子 &amp;amp;&amp;amp; || ! この三つがある
+-モジュール-
+便利なメソッドを詰め込んだプログラムの塊
+-デフォルト値-
+あらかじめ定義された引数の値のこと
+-publicメソッド-
+インスタンス経由でどこからでも呼び出せる
+-privateメソッド-
+インスタンス経由では呼び出せない、クラス内部でのみ利用する処理をまとめるためのメソッド
+-protectedメソッド-
+アクセス可能な範囲を限定するためのもので、class内や同一モジュールから利用できる
+-initializeメソッド-
+Rubyのクラスのinitializeメソッドはクラスがnewされた際に一度だけ実行されるメソッドです。 initializeメソッドはクラスの初期化を行うことが主な役目です。
+-インスタンス変数-
+インスタンスごとに値を変えれるインスタンス変数は、インスタンス生成時に値を入れる初期化処理を行うことがほとんど。</description>
+    </item>
     
     <item>
       <title>3ステップで学ぶRuby入門</title>
