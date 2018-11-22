@@ -42,6 +42,23 @@ yukicoder(星1~2)</description>
     </item>
     
     <item>
+      <title>3ステップで学ぶRuby入門</title>
+      <link>https://muuuuuuuuuu.github.io/myproject3/posts/third/</link>
+      <pubDate>Thu, 22 Nov 2018 11:33:12 +0900</pubDate>
+      
+      <guid>https://muuuuuuuuuu.github.io/myproject3/posts/third/</guid>
+      <description>-3ステップで学ぶRuby入門- この参考書の10章の「ファイルを書き換えよう」とゆう問題で つまづいたのでメモ。
+Ruby初心者にわかりやすい解説をしてくださってるグラミー先生とゆう方の記事を拝見させてもらいました。
+こちらがグラミー先生のサイトです(^ ^)
+https://www.grami-sensei.com/
+わかりやすく親切丁寧に説明をしてくださっているのでとても参考になりました。グラミー先生ありがとうございます( ´∀｀)
+グラミー先生の記事を引用させてもらいました。
+1.クラスの雛形を記述する
+以下のようなクラスの雛形とクラスのインスタンスを 生成して実行するプログラムを記述し、 ファイル名をdata_replacement.rbとして保存します。
+class DataReplacement attr_writer :inputfile, :outputfile def replace p 1 end end replacement = DataReplacement.new replacement.inputfile = ARGV[0] replacement.</description>
+    </item>
+    
+    <item>
       <title>hugoの編集</title>
       <link>https://muuuuuuuuuu.github.io/myproject3/posts/secound-post/</link>
       <pubDate>Fri, 16 Nov 2018 16:25:17 +0900</pubDate>

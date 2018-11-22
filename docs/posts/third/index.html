@@ -1,0 +1,357 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <title>muuuuuuuuuu blog</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="The HTML5 Herald" />
+  <meta name="author" content="" />
+  <meta name="generator" content="Hugo 0.50" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
+  <link rel="stylesheet" type="text/css" href="https://muuuuuuuuuu.github.io/myproject3/css/styles.css" />
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>
+                <a href="https://muuuuuuuuuu.github.io/myproject3/">muuuuuuuuuu blog</a>
+            </h1>
+
+      <ul id="social-media">
+        
+        <li><a href="https://twitter.com/muuuuuuuuuu7"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+          
+        <li><a href="https://github.com/muuuuuuuuuu"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+           
+      </ul>
+      
+      <p><em>プログラミング勉強中のアウトプットブログ</em></p>
+      
+    </header>
+
+    
+<nav>
+    <ul>
+        
+        <li>
+            <a class="" href="https://muuuuuuuuuu.github.io/myproject3/posts/">
+                <i class="fa-li fa  fa-lg"></i><span>blog &amp; autoput</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="https://muuuuuuuuuu.github.io/myproject3/about/">
+                <i class="fa-li fa  fa-lg"></i><span>profile</span>
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+
+    <main>
+
+
+
+
+<article>
+
+    <h1>3ステップで学ぶRuby入門</h1>
+
+    
+        <aside>
+    <ul>
+        <li>
+            <time class="post-date" datetime="2018-11-22T11:33:12&#43;09:00">Nov 22, 2018</time>
+        </li>
+        
+        
+        <li>
+            Categories: 
+            <em>
+                
+                    
+                    <a href="https://muuuuuuuuuu.github.io/myproject3/categories/file/">file</a>
+                
+                    , 
+                    <a href="https://muuuuuuuuuu.github.io/myproject3/categories/regexp/">regexp</a>
+                
+                    , 
+                    <a href="https://muuuuuuuuuu.github.io/myproject3/categories/csv/">csv</a>
+                
+            </em>
+        </li>
+        
+
+        
+        <li>
+            <em>
+                
+                    
+                    <a href="https://muuuuuuuuuu.github.io/myproject3/tags/file/">#file</a>
+                
+                    , 
+                    <a href="https://muuuuuuuuuu.github.io/myproject3/tags/regexp/">#regexp</a>
+                
+                    , 
+                    <a href="https://muuuuuuuuuu.github.io/myproject3/tags/csv/">#csv</a>
+                
+            </em>
+        </li>
+        
+
+        <li>2 min read</li>
+    </ul>
+</aside>
+    
+
+    <p><strong>-3ステップで学ぶRuby入門-</strong>
+この参考書の10章の「ファイルを書き換えよう」とゆう問題で
+つまづいたのでメモ。</p>
+
+<p>Ruby初心者にわかりやすい解説をしてくださってるグラミー先生とゆう方の記事を拝見させてもらいました。<br>こちらがグラミー先生のサイトです(^ ^)<br><a href="https://www.grami-sensei.com/" title="グラミー先生">https://www.grami-sensei.com/</a></p>
+
+<p>わかりやすく親切丁寧に説明をしてくださっているのでとても参考になりました。グラミー先生ありがとうございます( ´∀｀)</p>
+
+<p>グラミー先生の記事を引用させてもらいました。</p>
+
+<hr />
+
+<p>1.<strong>クラスの雛形を記述する</strong><br>以下のようなクラスの雛形とクラスのインスタンスを
+生成して実行するプログラムを記述し、
+ファイル名をdata_replacement.rbとして保存します。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-data_replacement.rb" data-lang="data_replacement.rb"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">DataReplacement</span>
+  <span style="color:#66d9ef">attr_writer</span> <span style="color:#e6db74">:inputfile</span>, <span style="color:#e6db74">:outputfile</span>
+
+  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">replace</span>
+    p <span style="color:#ae81ff">1</span>
+  <span style="color:#66d9ef">end</span>
+<span style="color:#66d9ef">end</span>
+
+replacement <span style="color:#f92672">=</span> <span style="color:#66d9ef">DataReplacement</span><span style="color:#f92672">.</span>new
+replacement<span style="color:#f92672">.</span>inputfile <span style="color:#f92672">=</span> <span style="color:#66d9ef">ARGV</span><span style="color:#f92672">[</span><span style="color:#ae81ff">0</span><span style="color:#f92672">]</span>
+replacement<span style="color:#f92672">.</span>outputfile <span style="color:#f92672">=</span> <span style="color:#66d9ef">ARGV</span><span style="color:#f92672">[</span><span style="color:#ae81ff">1</span><span style="color:#f92672">]</span>
+replacement<span style="color:#f92672">.</span>replace</code></pre></div>
+<p>[補足情報1]<br>ARGV[1]とARGV[2]はRubyをCLIで実行する時に外部のファイルなどの情報を処理するためのものです。<br>[補足情報2]<br>attr_writerで書き込み専用のアクセサメソッドを設定しています。</p>
+
+<hr />
+
+<p>2.<strong>クラスの雛形を記述したプログラムを実行する</strong><br>コマンドライン上で保存したファイルを指定してプログラムを実行します。実行結果に1が表示されます。</p>
+
+<pre><code>$ ruby data_replacement.rb
+1
+</code></pre>
+
+<hr />
+
+<p>3.<strong>ファイル読み込みを実装する</strong><br>以下のようにreplaceメソッドとcontentsメソッドを記述し保存します。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-data_replacement.rb" data-lang="data_replacement.rb"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">DataReplacement</span>
+  <span style="color:#66d9ef">attr_writer</span> <span style="color:#e6db74">:inputfile</span>, <span style="color:#e6db74">:outputfile</span>
+
+  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">replace</span>
+    contents<span style="color:#f92672">.</span>each <span style="color:#66d9ef">do</span> <span style="color:#f92672">|</span>content<span style="color:#f92672">|</span>
+      p content
+    <span style="color:#66d9ef">end</span>
+  <span style="color:#66d9ef">end</span>
+
+  <span style="color:#66d9ef">private</span>
+
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">contents</span>
+      fail <span style="color:#e6db74">&#39;Specify inputfile.&#39;</span> <span style="color:#66d9ef">if</span> @inputfile<span style="color:#f92672">.</span>nil?
+      <span style="color:#66d9ef">File</span><span style="color:#f92672">.</span>read(@inputfile)<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+    <span style="color:#66d9ef">end</span>
+<span style="color:#66d9ef">end</span>
+
+replacement <span style="color:#f92672">=</span> <span style="color:#66d9ef">DataReplacement</span><span style="color:#f92672">.</span>new
+replacement<span style="color:#f92672">.</span>inputfile <span style="color:#f92672">=</span> <span style="color:#66d9ef">ARGV</span><span style="color:#f92672">[</span><span style="color:#ae81ff">0</span><span style="color:#f92672">]</span>
+replacement<span style="color:#f92672">.</span>outputfile <span style="color:#f92672">=</span> <span style="color:#66d9ef">ARGV</span><span style="color:#f92672">[</span><span style="color:#ae81ff">1</span><span style="color:#f92672">]</span>
+replacement<span style="color:#f92672">.</span>replace</code></pre></div>
+<hr />
+
+<p>4.<strong>元のCSV形式のファイルを用意する</strong><br>以下のようなCSV形式のデータが記述してファイル名をinputdata.csvで保存します。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-inputdata.csv" data-lang="inputdata.csv">山田 太郎,1,09012345678
+山田 花子,2,09023456789
+鈴木 次郎,1,09034567890
+鈴木 桃子,2,09045678901
+田中 三郎,1,09056789012
+田中 梅子,2,09067890123
+高橋 四郎,1,09078901234
+高橋 桜子,2,09089012345
+佐藤 五郎,1,09090123456
+佐藤 李子,2,09001234567</code></pre></div>
+<p>[補足情報]<br><strong>CSVファイルとは</strong><br>「CSV」とは &ldquo;Comma Separated Value&rdquo; の略で、データをカンマ(&rdquo; , &ldquo;)区切った値の事です。アプリケーション間でデータをやり取りする際に使われます。CSV形式で保存されたファイルを「CSVファイル」と呼びます。
+CSV形式のファイルは、メモ帳などのテキストエディターで作成することができます。項目と項目の間にカンマを入れてデーターを記入してゆきます。ファイルの拡張子は「csv」で保存します。メモ帳でカンマ区切りのデーターを作成し、「txt」ファイルとして保存すると、それは「CSVファイル」ではなくただの「テキストファイル」になりますので気をつけて下さい。</p>
+
+<hr />
+
+<p>5.<strong>保存したプログラムを引数を指定して実行する</strong><br>コマンドライン上で以下のようにプログラムを実行します。実行結果がinputdata.csvの中身と同じであることを確認します。</p>
+
+<pre><code>$ ruby  data_replacement.rb inputdata.csv
+</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-inputdata.csv" data-lang="inputdata.csv">&#34;山田 太郎,1,09012345678&#34;
+&#34;山田 花子,2,09023456789&#34;
+&#34;鈴木 次郎,1,09034567890&#34;
+&#34;鈴木 桃子,2,09045678901&#34;
+&#34;田中 三郎,1,09056789012&#34;
+&#34;田中 梅子,2,09067890123&#34;
+&#34;高橋 四郎,1,09078901234&#34;
+&#34;高橋 桜子,2,09089012345&#34;
+&#34;佐藤 五郎,1,09090123456&#34;
+&#34;佐藤 李子,2,09001234567&#34;</code></pre></div>
+<hr />
+
+<p>6.<strong>名前、性別、携帯電話番号を書き換える処理を記述して保存する</strong><br>以下のようにプログラムを記述し保存します。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-data_replacement.rb" data-lang="data_replacement.rb"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">DataReplacement</span>
+  <span style="color:#66d9ef">attr_writer</span> <span style="color:#e6db74">:inputfile</span>, <span style="color:#e6db74">:outputfile</span>
+
+  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">replace</span>
+    contents<span style="color:#f92672">.</span>map <span style="color:#66d9ef">do</span> <span style="color:#f92672">|</span>content<span style="color:#f92672">|</span>
+      name, sex_code, tel <span style="color:#f92672">=</span> content<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#39;,&#39;</span>)
+      last_name, first_name <span style="color:#f92672">=</span> name<span style="color:#f92672">.</span>split
+      <span style="color:#f92672">[</span>last_name, first_name, sex(sex_code), separated_tel(tel)<span style="color:#f92672">].</span>join(<span style="color:#e6db74">&#39;,&#39;</span>)
+    <span style="color:#66d9ef">end</span>
+  <span style="color:#66d9ef">end</span>
+
+  <span style="color:#66d9ef">private</span>
+
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">contents</span>
+      fail <span style="color:#e6db74">&#39;Specify inputfile.&#39;</span> <span style="color:#66d9ef">if</span> @inputfile<span style="color:#f92672">.</span>nil?
+      <span style="color:#66d9ef">File</span><span style="color:#f92672">.</span>read(@inputfile)<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+    <span style="color:#66d9ef">end</span>
+
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">sex</span>(code)
+      code<span style="color:#f92672">.</span>to_i <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span> <span style="color:#f92672">?</span> <span style="color:#e6db74">&#39;男性&#39;</span> : <span style="color:#e6db74">&#39;女性&#39;</span>
+    <span style="color:#66d9ef">end</span>
+
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">separated_tel</span>(number)
+      number<span style="color:#f92672">.</span>match(<span style="color:#e6db74">/(\d{3})(\d{4})(\d{4})/</span>)
+      <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">#{</span>$1<span style="color:#e6db74">}</span><span style="color:#e6db74">-</span><span style="color:#e6db74">#{</span>$2<span style="color:#e6db74">}</span><span style="color:#e6db74">-</span><span style="color:#e6db74">#{</span>$3<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+    <span style="color:#66d9ef">end</span>
+<span style="color:#66d9ef">end</span>
+
+replacement <span style="color:#f92672">=</span> <span style="color:#66d9ef">DataReplacement</span><span style="color:#f92672">.</span>new
+replacement<span style="color:#f92672">.</span>inputfile <span style="color:#f92672">=</span> <span style="color:#66d9ef">ARGV</span><span style="color:#f92672">[</span><span style="color:#ae81ff">0</span><span style="color:#f92672">]</span>
+replacement<span style="color:#f92672">.</span>outputfile <span style="color:#f92672">=</span> <span style="color:#66d9ef">ARGV</span><span style="color:#f92672">[</span><span style="color:#ae81ff">1</span><span style="color:#f92672">]</span>
+p replacement<span style="color:#f92672">.</span>replace</code></pre></div>
+<hr />
+
+<p>7.<strong>名前、性別、携帯電話番号を書き換える処理を記述したプログラムを実行する</strong><br>コマンドライン上で保存したプログラムを以下のように実行します。
+実行結果に書き換えた後の行毎の配列が表示されます。</p>
+
+<pre><code>$ ruby data_replacement.rb inputdata.csv
+</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-inputdata.csv" data-lang="inputdata.csv">[&#34;山田,太郎,男性,090-1234-5678&#34;, &#34;山田,花子,女性,090-2345-6789&#34;,
+   &#34;鈴木,次郎,男性,090-3456-7890&#34;, &#34;鈴木,桃子,女性,090-4567-8901&#34;,
+   &#34;田中,三郎,男性,090-5678-9012&#34;, &#34;田中,梅子,女性,090-6789-0123&#34;,
+    &#34;高橋,四郎,男性,090-7890-1234&#34;, &#34;高橋,桜子,女性,090-8901-2345&#34;,
+    &#34;佐藤,五郎,男性,090-9012-3456&#34;, &#34;佐藤,李子,女性,090-0123-4567&#34;]</code></pre></div>
+<hr />
+
+<p>8.<strong>ファイルに書き出す処理を追加する</strong><br>以下のようにプログラムを記述し保存します。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-data_replacement.rb" data-lang="data_replacement.rb"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">DataReplacement</span>
+  <span style="color:#66d9ef">attr_writer</span> <span style="color:#e6db74">:inputfile</span>, <span style="color:#e6db74">:outputfile</span>
+
+  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">replace</span>
+    output <span style="color:#f92672">=</span> contents<span style="color:#f92672">.</span>map <span style="color:#66d9ef">do</span> <span style="color:#f92672">|</span>content<span style="color:#f92672">|</span>
+      name, sex_code, tel <span style="color:#f92672">=</span> content<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#39;,&#39;</span>)
+      last_name, first_name <span style="color:#f92672">=</span> name<span style="color:#f92672">.</span>split
+      <span style="color:#f92672">[</span>last_name, first_name, sex(sex_code), separated_tel(tel)<span style="color:#f92672">].</span>join(<span style="color:#e6db74">&#39;,&#39;</span>)
+    <span style="color:#66d9ef">end</span><span style="color:#f92672">.</span>join(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+    write_file(output)
+  <span style="color:#66d9ef">end</span>
+
+  <span style="color:#66d9ef">private</span>
+
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">contents</span>
+      fail <span style="color:#e6db74">&#39;Specify inputfile.&#39;</span> <span style="color:#66d9ef">if</span> @inputfile<span style="color:#f92672">.</span>nil?
+      <span style="color:#66d9ef">File</span><span style="color:#f92672">.</span>read(@inputfile)<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+    <span style="color:#66d9ef">end</span>
+
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">sex</span>(code)
+      code<span style="color:#f92672">.</span>to_i <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span> <span style="color:#f92672">?</span> <span style="color:#e6db74">&#39;男性&#39;</span> : <span style="color:#e6db74">&#39;女性&#39;</span>
+    <span style="color:#66d9ef">end</span>
+
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">separated_tel</span>(number)
+      number<span style="color:#f92672">.</span>match(<span style="color:#e6db74">/(\d{3})(\d{4})(\d{4})/</span>)
+      <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">#{</span>$1<span style="color:#e6db74">}</span><span style="color:#e6db74">-</span><span style="color:#e6db74">#{</span>$2<span style="color:#e6db74">}</span><span style="color:#e6db74">-</span><span style="color:#e6db74">#{</span>$3<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+    <span style="color:#66d9ef">end</span>
+
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">write_file</span>(output)
+      fail <span style="color:#e6db74">&#39;Specify outputfile.&#39;</span> <span style="color:#66d9ef">if</span> @outputfile<span style="color:#f92672">.</span>nil?
+      <span style="color:#66d9ef">File</span><span style="color:#f92672">.</span>write(@outputfile, output)
+    <span style="color:#66d9ef">end</span>
+<span style="color:#66d9ef">end</span>
+
+replacement <span style="color:#f92672">=</span> <span style="color:#66d9ef">DataReplacement</span><span style="color:#f92672">.</span>new
+replacement<span style="color:#f92672">.</span>inputfile <span style="color:#f92672">=</span> <span style="color:#66d9ef">ARGV</span><span style="color:#f92672">[</span><span style="color:#ae81ff">0</span><span style="color:#f92672">]</span>
+replacement<span style="color:#f92672">.</span>outputfile <span style="color:#f92672">=</span> <span style="color:#66d9ef">ARGV</span><span style="color:#f92672">[</span><span style="color:#ae81ff">1</span><span style="color:#f92672">]</span>
+replacement<span style="color:#f92672">.</span>replace</code></pre></div>
+<hr />
+
+<p>9.<strong>ファイルに書き出す処理を追加したプログラムを実行する</strong><br>コマンドライン上で保存したプログラムを以下のように実行します。
+実行結果には何も表示されません。</p>
+
+<pre><code>$ ruby data_replacement.rb inputdata.csv outputdata.csv
+</code></pre>
+
+<p>[補足情報]<br>outputdata.csvが生成される。</p>
+
+<hr />
+
+<p>10.<strong>書き出したファイルを確認する</strong><br>プログラム実行時に指定した書き出し用のファイルである
+outputdata.csvを開いて確認します。
+inputdata.csvを書き換えた内容が表示されます。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-inputdata.csv" data-lang="inputdata.csv">山田,太郎,男性,090-1234-5678
+山田,花子,女性,090-2345-6789
+鈴木,次郎,男性,090-3456-7890
+鈴木,桃子,女性,090-4567-8901
+田中,三郎,男性,090-5678-9012
+田中,梅子,女性,090-6789-0123
+高橋,四郎,男性,090-7890-1234
+高橋,桜子,女性,090-8901-2345
+佐藤,五郎,男性,090-9012-3456
+佐藤,李子,女性,090-0123-4567</code></pre></div>
+<hr />
+
+<p>試しに自分の名前、性別、番号をinputdata.csvに書き込んでから</p>
+
+<pre><code>$ ruby data_replacement.rb inputdata.csv outputdata.csv
+</code></pre>
+
+<p>をしたらしっかりと記述されました😚</p>
+
+
+</article>
+
+
+<section class="post-nav">
+    <ul>
+        
+        <li>
+            <a href="https://muuuuuuuuuu.github.io/myproject3/posts/secound-post/"><i class="fa fa-chevron-circle-left"></i> hugoの編集</a>
+        </li>
+        
+        
+    </ul>
+</section>
+    
+
+
+
+
+
+</main>
+    <footer>
+        <h6>Copyright &copy; 2018 - muuuuuuuuuu | 
+            Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
+            <a href="https://muuuuuuuuuu.github.io/myproject3index.xml">Subscribe</a></h6>
+    </footer>
+</div>
+<script src="https://muuuuuuuuuu.github.io/myproject3/js/scripts.js"></script>
+</body>
+
+</html>

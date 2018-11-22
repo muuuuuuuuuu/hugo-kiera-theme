@@ -6,10 +6,28 @@
     <description>Recent content in Tags on muuuuuuuuuu blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2018 - muuuuuuuuuu</copyright>
-    <lastBuildDate>Fri, 16 Nov 2018 16:25:17 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 22 Nov 2018 11:33:12 +0900</lastBuildDate>
     
 	<atom:link href="https://muuuuuuuuuu.github.io/myproject3/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Csv</title>
+      <link>https://muuuuuuuuuu.github.io/myproject3/tags/csv/</link>
+      <pubDate>Thu, 22 Nov 2018 11:33:12 +0900</pubDate>
+      
+      <guid>https://muuuuuuuuuu.github.io/myproject3/tags/csv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>File</title>
+      <link>https://muuuuuuuuuu.github.io/myproject3/tags/file/</link>
+      <pubDate>Thu, 22 Nov 2018 11:33:12 +0900</pubDate>
+      
+      <guid>https://muuuuuuuuuu.github.io/myproject3/tags/file/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hugo</title>
@@ -17,6 +35,15 @@
       <pubDate>Fri, 16 Nov 2018 16:25:17 +0900</pubDate>
       
       <guid>https://muuuuuuuuuu.github.io/myproject3/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regexp</title>
+      <link>https://muuuuuuuuuu.github.io/myproject3/tags/regexp/</link>
+      <pubDate>Thu, 22 Nov 2018 11:33:12 +0900</pubDate>
+      
+      <guid>https://muuuuuuuuuu.github.io/myproject3/tags/regexp/</guid>
       <description></description>
     </item>
     

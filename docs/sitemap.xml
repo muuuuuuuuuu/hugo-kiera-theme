@@ -4,12 +4,17 @@
   
   <url>
     <loc>https://muuuuuuuuuu.github.io/myproject3/posts/</loc>
-    <lastmod>2018-11-16T16:25:17+09:00</lastmod>
+    <lastmod>2018-11-22T11:33:12+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://muuuuuuuuuu.github.io/myproject3/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muuuuuuuuuu.github.io/myproject3/posts/third/</loc>
+    <lastmod>2018-11-22T11:33:12+09:00</lastmod>
   </url>
   
   <url>
@@ -28,6 +33,30 @@
   </url>
   
   <url>
+    <loc>https://muuuuuuuuuu.github.io/myproject3/tags/csv/</loc>
+    <lastmod>2018-11-22T11:33:12+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://muuuuuuuuuu.github.io/myproject3/categories/csv/</loc>
+    <lastmod>2018-11-22T11:33:12+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://muuuuuuuuuu.github.io/myproject3/tags/file/</loc>
+    <lastmod>2018-11-22T11:33:12+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://muuuuuuuuuu.github.io/myproject3/categories/file/</loc>
+    <lastmod>2018-11-22T11:33:12+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://muuuuuuuuuu.github.io/myproject3/tags/hugo/</loc>
     <lastmod>2018-11-16T16:25:17+09:00</lastmod>
     <priority>0</priority>
@@ -40,8 +69,20 @@
   </url>
   
   <url>
+    <loc>https://muuuuuuuuuu.github.io/myproject3/tags/regexp/</loc>
+    <lastmod>2018-11-22T11:33:12+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://muuuuuuuuuu.github.io/myproject3/categories/regexp/</loc>
+    <lastmod>2018-11-22T11:33:12+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://muuuuuuuuuu.github.io/myproject3/tags/</loc>
-    <lastmod>2018-11-16T16:25:17+09:00</lastmod>
+    <lastmod>2018-11-22T11:33:12+09:00</lastmod>
     <priority>0</priority>
   </url>
   
