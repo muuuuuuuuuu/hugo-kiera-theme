@@ -1,0 +1,249 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <title>muuuuuuuuuu blog</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="The HTML5 Herald" />
+  <meta name="author" content="" />
+  <meta name="generator" content="Hugo 0.50" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
+  <link rel="stylesheet" type="text/css" href="https://muuuuuuuuuu.github.io/myproject3/css/styles.css" />
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>
+                <a href="https://muuuuuuuuuu.github.io/myproject3/">muuuuuuuuuu blog</a>
+            </h1>
+
+      <ul id="social-media">
+        
+        <li><a href="https://twitter.com/muuuuuuuuuu7"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+          
+        <li><a href="https://github.com/muuuuuuuuuu"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+           
+      </ul>
+      
+      <p><em>プログラミング勉強中のアウトプットブログ</em></p>
+      
+    </header>
+
+    
+<nav>
+    <ul>
+        
+        <li>
+            <a class="" href="https://muuuuuuuuuu.github.io/myproject3/posts/">
+                <i class="fa-li fa  fa-lg"></i><span>blog &amp; autoput</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="https://muuuuuuuuuu.github.io/myproject3/about/">
+                <i class="fa-li fa  fa-lg"></i><span>profile</span>
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+
+    <main>
+
+
+
+
+<article>
+
+    <h1>Rubyで身長、体重比較</h1>
+
+    
+        <aside>
+    <ul>
+        <li>
+            <time class="post-date" datetime="2018-11-26T00:17:29&#43;09:00">Nov 26, 2018</time>
+        </li>
+        
+        
+        <li>
+            Categories: 
+            <em>
+                
+                    
+                    <a href="https://muuuuuuuuuu.github.io/myproject3/categories/hash/">hash</a>
+                
+                    , 
+                    <a href="https://muuuuuuuuuu.github.io/myproject3/categories/array/">array</a>
+                
+                    , 
+                    <a href="https://muuuuuuuuuu.github.io/myproject3/categories/each/">each</a>
+                
+                    , 
+                    <a href="https://muuuuuuuuuu.github.io/myproject3/categories/if/">if</a>
+                
+                    , 
+                    <a href="https://muuuuuuuuuu.github.io/myproject3/categories/merge/">merge</a>
+                
+                    , 
+                    <a href="https://muuuuuuuuuu.github.io/myproject3/categories/ruby/">ruby</a>
+                
+            </em>
+        </li>
+        
+
+        
+        <li>
+            <em>
+                
+                    
+                    <a href="https://muuuuuuuuuu.github.io/myproject3/tags/hash/">#hash</a>
+                
+                    , 
+                    <a href="https://muuuuuuuuuu.github.io/myproject3/tags/array/">#array</a>
+                
+                    , 
+                    <a href="https://muuuuuuuuuu.github.io/myproject3/tags/each/">#each</a>
+                
+                    , 
+                    <a href="https://muuuuuuuuuu.github.io/myproject3/tags/if/">#if</a>
+                
+                    , 
+                    <a href="https://muuuuuuuuuu.github.io/myproject3/tags/merge/">#merge</a>
+                
+                    , 
+                    <a href="https://muuuuuuuuuu.github.io/myproject3/tags/ruby/">#ruby</a>
+                
+            </em>
+        </li>
+        
+
+        <li>2 min read</li>
+    </ul>
+</aside>
+    
+
+    
+
+<h2 id="身長が高い人が優れている-けど身長が一緒やったら体重が軽い方が優れている-a君b君c君がいます">身長が高い人が優れている、けど身長が一緒やったら体重が軽い方が優れている(A君B君C君がいます)</h2>
+
+<p>これをプログラムすると</p>
+
+<p>まず、<strong>splitメソッド</strong>で空白スペースで入力出来る様にします</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-hash.rb" data-lang="hash.rb">a <span style="color:#f92672">=</span> gets<span style="color:#f92672">.</span>chomp<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#34; &#34;</span>)
+b <span style="color:#f92672">=</span> gets<span style="color:#f92672">.</span>chomp<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#34; &#34;</span>)
+c <span style="color:#f92672">=</span> gets<span style="color:#f92672">.</span>chomp<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#34; &#34;</span>)</code></pre></div>
+<p>[入力例]<br><code>170 60</code><br><code>180 70</code><br><code>160 50</code></p>
+
+<p>そして<strong>mapメソッド</strong>を使って配列の文字列を数値にします</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-hash.rb" data-lang="hash.rb">aa <span style="color:#f92672">=</span> a<span style="color:#f92672">.</span>map(<span style="color:#f92672">&amp;</span><span style="color:#e6db74">:to_i</span>)
+bb <span style="color:#f92672">=</span> b<span style="color:#f92672">.</span>map(<span style="color:#f92672">&amp;</span><span style="color:#e6db74">:to_i</span>)
+cc <span style="color:#f92672">=</span> c<span style="color:#f92672">.</span>map(<span style="color:#f92672">&amp;</span><span style="color:#e6db74">:to_i</span>)</code></pre></div>
+<p>[出力例]<br><code>aa[170, 60]</code><br><code>bb[180, 70]</code><br><code>cc[160, 50]</code><br>↑今この様に配列になっているからこれをhashにします</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-hash.rb" data-lang="hash.rb">h <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;A&#34;</span> <span style="color:#f92672">=&gt;</span> aa<span style="color:#f92672">[</span><span style="color:#ae81ff">0</span><span style="color:#f92672">]</span>, <span style="color:#e6db74">&#34;B&#34;</span> <span style="color:#f92672">=&gt;</span> bb<span style="color:#f92672">[</span><span style="color:#ae81ff">0</span><span style="color:#f92672">]</span>, <span style="color:#e6db74">&#34;C&#34;</span> <span style="color:#f92672">=&gt;</span> cc<span style="color:#f92672">[</span><span style="color:#ae81ff">0</span><span style="color:#f92672">]</span>}
+w <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;A&#34;</span> <span style="color:#f92672">=&gt;</span> aa<span style="color:#f92672">[</span><span style="color:#ae81ff">1</span><span style="color:#f92672">]</span>, <span style="color:#e6db74">&#34;B&#34;</span> <span style="color:#f92672">=&gt;</span> bb<span style="color:#f92672">[</span><span style="color:#ae81ff">1</span><span style="color:#f92672">]</span>, <span style="color:#e6db74">&#34;C&#34;</span> <span style="color:#f92672">=&gt;</span> cc<span style="color:#f92672">[</span><span style="color:#ae81ff">1</span><span style="color:#f92672">]</span>}</code></pre></div>
+<p>[出力例]<br><code>h = { &quot;A&quot; =&gt; 170, &quot;B&quot; =&gt; 180, &quot;C&quot; =&gt; 160}</code><br><code>w = { &quot;A&quot; =&gt; 60, &quot;B&quot; =&gt; 70, &quot;C&quot; =&gt; 50}</code></p>
+
+<p>次に<strong>sortメソッド</strong>を使って身長の高いもん順にならべかえる</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-hash.rb" data-lang="hash.rb">hh <span style="color:#f92672">=</span> h<span style="color:#f92672">.</span>sort { <span style="color:#f92672">|</span>(key1, val1),(key2, val2)<span style="color:#f92672">|</span> val2 <span style="color:#f92672">&lt;=&gt;</span> val1 }</code></pre></div>
+<p>[出力例]<br><code>[[&quot;B&quot;, 180], [&quot;A&quot;, 170], [&quot;C&quot;, 160]]</code></p>
+
+<p>[補足情報]<br><code>val2 &lt;=&gt; val1</code>この部分を<code>val1 &lt;=&gt; val2</code>の様にすると値の低い順に出力される</p>
+
+<p>次は体重の軽い順に<strong>sort</strong>する</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-hash.rb" data-lang="hash.rb">ww <span style="color:#f92672">=</span> w<span style="color:#f92672">.</span>sort { <span style="color:#f92672">|</span>(key1, val1),(key2, val2)<span style="color:#f92672">|</span> val1 <span style="color:#f92672">&lt;=&gt;</span> val2 }</code></pre></div>
+<p>[出力例]<br><code>[[&quot;C&quot;, 50], [&quot;A&quot;, 60], [&quot;B&quot;, 70]]</code></p>
+
+<p>体重よりも身長の方が優れている優先度が高いから、<br>身長が高い人に点数を多く与えてあげる、<br><strong>eachメソッド</strong>を使って1位の人に30点をあげる、<br>そしてそこから身長が低くなるにつれて点数を10点ずつ低くする計算式を作る</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-hash.rb" data-lang="hash.rb"> lank <span style="color:#f92672">=</span><span style="color:#ae81ff">30</span>
+ previous <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+ score <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#34;A&#34;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#ae81ff">0</span>, <span style="color:#e6db74">&#34;B&#34;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#ae81ff">0</span>, <span style="color:#e6db74">&#34;C&#34;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#ae81ff">0</span>}
+ hh<span style="color:#f92672">.</span>each { <span style="color:#f92672">|</span>key, val<span style="color:#f92672">|</span>
+   <span style="color:#66d9ef">if</span> previous <span style="color:#f92672">&gt;</span> val <span style="color:#66d9ef">then</span>
+     lank <span style="color:#f92672">-=</span> <span style="color:#ae81ff">10</span>
+   <span style="color:#66d9ef">end</span>
+   previous <span style="color:#f92672">=</span> val
+   score<span style="color:#f92672">[</span>key<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> lank
+  }</code></pre></div>
+<pre><code>  lank = 30
+  1位の人に30点を上げたいから30を代入して上げます
+</code></pre>
+
+<pre><code>  previous = 0
+  previousには前回の人の値が入る
+  けど最初の人は前回の人がいないから初期値として
+  0を入れといて上げます
+</code></pre>
+
+<p>[出力例]<br><code>{&quot;A&quot;=&gt;20, &quot;B&quot;=&gt;30, &quot;C&quot;=&gt;10}</code></p>
+
+<p>ここまでは身長、次は体重</p>
+
+<hr />
+
+<p><strong>体重は身長よりも優先度が低いから</strong>一番軽い人に3点、次に2点、1点と与える様にする、身長も体重も一緒の値の人は同点になります。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-hash.rb" data-lang="hash.rb">  lank2 <span style="color:#f92672">=</span> <span style="color:#ae81ff">4</span>
+  previous2 <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+  score2 <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#34;A&#34;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#ae81ff">0</span>, <span style="color:#e6db74">&#34;B&#34;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#ae81ff">0</span>, <span style="color:#e6db74">&#34;C&#34;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#ae81ff">0</span>}
+  ww<span style="color:#f92672">.</span>each { <span style="color:#f92672">|</span>key, val<span style="color:#f92672">|</span>
+    <span style="color:#66d9ef">if</span> previous2 <span style="color:#f92672">&lt;</span> val <span style="color:#66d9ef">then</span>
+      lank2 <span style="color:#f92672">-=</span> <span style="color:#ae81ff">1</span>
+    <span style="color:#66d9ef">end</span>
+    previous2 <span style="color:#f92672">=</span> val
+    score2<span style="color:#f92672">[</span>key<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> lank2
+  }</code></pre></div>
+<p>[出力例]<br><code>{ &quot;A&quot;=&gt;2, &quot;B&quot;=&gt;1, &quot;C&quot;=&gt;3 }</code></p>
+
+<p>次に身長と体重の値を足して上げる(merge)</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-hash.rb" data-lang="hash.rb">  score3 <span style="color:#f92672">=</span> score<span style="color:#f92672">.</span>merge(score2){ <span style="color:#f92672">|</span>key, v0, v1<span style="color:#f92672">|</span> v0 <span style="color:#f92672">+</span> v1 }</code></pre></div>
+<p>[出力例]<br><code>{ &quot;A&quot;=&gt;22, &quot;B&quot;=&gt;31, &quot;C&quot;=&gt;13 }</code></p>
+
+<p>そしてまた<strong>sortメソッド</strong>を使って値の高いもん順に出力して上げる</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-hash.rb" data-lang="hash.rb">  score4 <span style="color:#f92672">=</span> score3<span style="color:#f92672">.</span>sort { <span style="color:#f92672">|</span>(key1, val1),(key2, val2)<span style="color:#f92672">|</span> val2 <span style="color:#f92672">&lt;=&gt;</span> val1 }</code></pre></div>
+<p>[出力例]<br><code>[[&quot;B&quot;, 31], [&quot;A&quot;, 22], [&quot;C&quot;, 13]]</code></p>
+
+<p>これで後は<strong>インデックス番号</strong>を指定して上げて<strong>完成！</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-hash.rb" data-lang="hash.rb">  puts score4<span style="color:#f92672">[</span><span style="color:#ae81ff">0</span><span style="color:#f92672">][</span><span style="color:#ae81ff">0</span><span style="color:#f92672">]</span>
+  puts score4<span style="color:#f92672">[</span><span style="color:#ae81ff">1</span><span style="color:#f92672">][</span><span style="color:#ae81ff">0</span><span style="color:#f92672">]</span>
+  puts score4<span style="color:#f92672">[</span><span style="color:#ae81ff">2</span><span style="color:#f92672">][</span><span style="color:#ae81ff">0</span><span style="color:#f92672">]</span></code></pre></div>
+<p>[出力例]</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-hash.rb" data-lang="hash.rb">  B
+  A
+  C</code></pre></div>
+<p>無駄のコードとかも多くリファクタリングが出来る。<br>また余裕のある時に見直そう。</p>
+
+
+</article>
+
+
+<section class="post-nav">
+    <ul>
+        
+        <li>
+            <a href="https://muuuuuuuuuu.github.io/myproject3/posts/four/"><i class="fa fa-chevron-circle-left"></i> Ruby?の色んな言葉のあれこれ</a>
+        </li>
+        
+        
+    </ul>
+</section>
+    
+
+
+
+
+
+</main>
+    <footer>
+        <h6>Copyright &copy; 2018 - muuuuuuuuuu | 
+            Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
+            <a href="https://muuuuuuuuuu.github.io/myproject3index.xml">Subscribe</a></h6>
+    </footer>
+</div>
+<script src="https://muuuuuuuuuu.github.io/myproject3/js/scripts.js"></script>
+</body>
+
+</html>

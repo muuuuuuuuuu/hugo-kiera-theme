@@ -6,10 +6,19 @@
     <description>Recent content in Tags on muuuuuuuuuu blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2018 - muuuuuuuuuu</copyright>
-    <lastBuildDate>Thu, 22 Nov 2018 11:33:12 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 26 Nov 2018 00:17:29 +0900</lastBuildDate>
     
 	<atom:link href="https://muuuuuuuuuu.github.io/myproject3/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Array</title>
+      <link>https://muuuuuuuuuu.github.io/myproject3/tags/array/</link>
+      <pubDate>Mon, 26 Nov 2018 00:17:29 +0900</pubDate>
+      
+      <guid>https://muuuuuuuuuu.github.io/myproject3/tags/array/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Csv</title>
@@ -17,6 +26,15 @@
       <pubDate>Thu, 22 Nov 2018 11:33:12 +0900</pubDate>
       
       <guid>https://muuuuuuuuuu.github.io/myproject3/tags/csv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Each</title>
+      <link>https://muuuuuuuuuu.github.io/myproject3/tags/each/</link>
+      <pubDate>Mon, 26 Nov 2018 00:17:29 +0900</pubDate>
+      
+      <guid>https://muuuuuuuuuu.github.io/myproject3/tags/each/</guid>
       <description></description>
     </item>
     
@@ -30,6 +48,15 @@
     </item>
     
     <item>
+      <title>Hash</title>
+      <link>https://muuuuuuuuuu.github.io/myproject3/tags/hash/</link>
+      <pubDate>Mon, 26 Nov 2018 00:17:29 +0900</pubDate>
+      
+      <guid>https://muuuuuuuuuu.github.io/myproject3/tags/hash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hugo</title>
       <link>https://muuuuuuuuuu.github.io/myproject3/tags/hugo/</link>
       <pubDate>Fri, 16 Nov 2018 16:25:17 +0900</pubDate>
@@ -39,11 +66,38 @@
     </item>
     
     <item>
+      <title>If</title>
+      <link>https://muuuuuuuuuu.github.io/myproject3/tags/if/</link>
+      <pubDate>Mon, 26 Nov 2018 00:17:29 +0900</pubDate>
+      
+      <guid>https://muuuuuuuuuu.github.io/myproject3/tags/if/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Merge</title>
+      <link>https://muuuuuuuuuu.github.io/myproject3/tags/merge/</link>
+      <pubDate>Mon, 26 Nov 2018 00:17:29 +0900</pubDate>
+      
+      <guid>https://muuuuuuuuuu.github.io/myproject3/tags/merge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Regexp</title>
       <link>https://muuuuuuuuuu.github.io/myproject3/tags/regexp/</link>
       <pubDate>Thu, 22 Nov 2018 11:33:12 +0900</pubDate>
       
       <guid>https://muuuuuuuuuu.github.io/myproject3/tags/regexp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruby</title>
+      <link>https://muuuuuuuuuu.github.io/myproject3/tags/ruby/</link>
+      <pubDate>Mon, 26 Nov 2018 00:17:29 +0900</pubDate>
+      
+      <guid>https://muuuuuuuuuu.github.io/myproject3/tags/ruby/</guid>
       <description></description>
     </item>
     

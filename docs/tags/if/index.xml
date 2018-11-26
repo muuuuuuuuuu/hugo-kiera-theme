@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>If on muuuuuuuuuu blog</title>
+    <link>https://muuuuuuuuuu.github.io/myproject3/tags/if/</link>
+    <description>Recent content in If on muuuuuuuuuu blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright &amp;copy; 2018 - muuuuuuuuuu</copyright>
+    <lastBuildDate>Mon, 26 Nov 2018 00:17:29 +0900</lastBuildDate>
+    
+	<atom:link href="https://muuuuuuuuuu.github.io/myproject3/tags/if/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rubyで身長、体重比較</title>
+      <link>https://muuuuuuuuuu.github.io/myproject3/posts/five/</link>
+      <pubDate>Mon, 26 Nov 2018 00:17:29 +0900</pubDate>
+      
+      <guid>https://muuuuuuuuuu.github.io/myproject3/posts/five/</guid>
+      <description>身長が高い人が優れている、けど身長が一緒やったら体重が軽い方が優れている(A君B君C君がいます) これをプログラムすると
+まず、splitメソッドで空白スペースで入力出来る様にします
+a = gets.chomp.split(&amp;#34; &amp;#34;) b = gets.chomp.split(&amp;#34; &amp;#34;) c = gets.chomp.split(&amp;#34; &amp;#34;) [入力例]
+170 60
+180 70
+160 50
+そしてmapメソッドを使って配列の文字列を数値にします
+aa = a.map(&amp;amp;:to_i) bb = b.map(&amp;amp;:to_i) cc = c.</description>
+    </item>
+    
+  </channel>
+</rss>
