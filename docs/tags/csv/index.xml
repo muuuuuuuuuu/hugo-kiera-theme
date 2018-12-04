@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Csv on muuuuuuuuuu blog</title>
-    <link>https://muuuuuuuuuu.github.io/myproject3/tags/csv/</link>
+    <link>https://muuuuuuuuuu.github.io/hugo-kiera-theme/tags/csv/</link>
     <description>Recent content in Csv on muuuuuuuuuu blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2018 - muuuuuuuuuu</copyright>
     <lastBuildDate>Thu, 22 Nov 2018 11:33:12 +0900</lastBuildDate>
     
-	<atom:link href="https://muuuuuuuuuu.github.io/myproject3/tags/csv/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://muuuuuuuuuu.github.io/hugo-kiera-theme/tags/csv/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>3ステップで学ぶRuby入門</title>
-      <link>https://muuuuuuuuuu.github.io/myproject3/posts/third/</link>
+      <link>https://muuuuuuuuuu.github.io/hugo-kiera-theme/posts/third/</link>
       <pubDate>Thu, 22 Nov 2018 11:33:12 +0900</pubDate>
       
-      <guid>https://muuuuuuuuuu.github.io/myproject3/posts/third/</guid>
+      <guid>https://muuuuuuuuuu.github.io/hugo-kiera-theme/posts/third/</guid>
       <description>-3ステップで学ぶRuby入門- この参考書の10章の「ファイルを書き換えよう」とゆう問題で つまづいたのでメモ。
 Ruby初心者にわかりやすい解説をしてくださってるグラミー先生とゆう方の記事を拝見させてもらいました。
 こちらがグラミー先生のサイトです(^ ^)

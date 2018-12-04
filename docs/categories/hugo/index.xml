@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on muuuuuuuuuu blog</title>
-    <link>https://muuuuuuuuuu.github.io/myproject3/categories/hugo/</link>
+    <link>https://muuuuuuuuuu.github.io/hugo-kiera-theme/categories/hugo/</link>
     <description>Recent content in Hugo on muuuuuuuuuu blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2018 - muuuuuuuuuu</copyright>
     <lastBuildDate>Fri, 16 Nov 2018 16:25:17 +0900</lastBuildDate>
     
-	<atom:link href="https://muuuuuuuuuu.github.io/myproject3/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://muuuuuuuuuu.github.io/hugo-kiera-theme/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>hugoの編集</title>
-      <link>https://muuuuuuuuuu.github.io/myproject3/posts/secound-post/</link>
+      <link>https://muuuuuuuuuu.github.io/hugo-kiera-theme/posts/secound-post/</link>
       <pubDate>Fri, 16 Nov 2018 16:25:17 +0900</pubDate>
       
-      <guid>https://muuuuuuuuuu.github.io/myproject3/posts/secound-post/</guid>
+      <guid>https://muuuuuuuuuu.github.io/hugo-kiera-theme/posts/secound-post/</guid>
       <description>hugoのインストールから本番デプロイまでをまとめられたから次はhugoの編集の仕方を少しまとめてみようと思う！
 新しく記事を作成
 hugo new posts/secound.md (secoudのとこはなんでも良い)  postsディレクトリにsecound.mdが追加される、 これはその中身
@@ -25,10 +25,10 @@ title = &amp;quot;secound&amp;quot; date = 2018-11-16T16:25:17+09:00 draft = tru
     
     <item>
       <title>hugoのテーマをインストールから本番デプロイまで</title>
-      <link>https://muuuuuuuuuu.github.io/myproject3/posts/first/</link>
+      <link>https://muuuuuuuuuu.github.io/hugo-kiera-theme/posts/first/</link>
       <pubDate>Thu, 15 Nov 2018 11:01:03 +0900</pubDate>
       
-      <guid>https://muuuuuuuuuu.github.io/myproject3/posts/first/</guid>
+      <guid>https://muuuuuuuuuu.github.io/hugo-kiera-theme/posts/first/</guid>
       <description>-- やっとこさhugoでアウトプットブログが出来たのであれやこれやとhugoについてまとめてみる！初めてのMarkdown記法だからかなり見ずらいかもしれないけどすいません。Markdown記法も勉強しないと！
 まず、自分はhugoディレクトリがあるからそこで
 hugo new site muublog  それから
