@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Method on muuuuuuuuuu blog</title>
+    <link>https://muuuuuuuuuu.github.io/hugo-kiera-theme/categories/method/</link>
+    <description>Recent content in Method on muuuuuuuuuu blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright &amp;copy; 2018 - muuuuuuuuuu</copyright>
+    <lastBuildDate>Tue, 04 Dec 2018 23:47:52 +0900</lastBuildDate>
+    
+	<atom:link href="https://muuuuuuuuuu.github.io/hugo-kiera-theme/categories/method/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rubyで便利だなって思うあれこれ</title>
+      <link>https://muuuuuuuuuu.github.io/hugo-kiera-theme/posts/six/</link>
+      <pubDate>Tue, 04 Dec 2018 23:47:52 +0900</pubDate>
+      
+      <guid>https://muuuuuuuuuu.github.io/hugo-kiera-theme/posts/six/</guid>
+      <description>・正規表現で文字列の中から数字だけを取り出す
+a = gets.chomp ↓ AWBWCWDWEWFWGWH puts a.gsub(/[AEGIOSZ]/,&amp;#34;A&amp;#34; =&amp;gt; &amp;#34;a&amp;#34;, &amp;#34;B&amp;#34; =&amp;gt; &amp;#34;b&amp;#34;, &amp;#34;C&amp;#34; =&amp;gt; &amp;#34;c&amp;#34;, &amp;#34;D&amp;#34; =&amp;gt; &amp;#34;d&amp;#34;, &amp;#34;F&amp;#34; =&amp;gt; &amp;#34;f&amp;#34;, &amp;#34;G&amp;#34; =&amp;gt; &amp;#34;g&amp;#34;, &amp;#34;H&amp;#34; =&amp;gt; &amp;#34;h&amp;#34;) ↓ aWBWCWDWWFWgWH [AEGIOSZ]←はこの中で当てはまるものだけって事  ・１部分の文字を正規表現で消す(破壊的)</description>
+    </item>
+    
+  </channel>
+</rss>

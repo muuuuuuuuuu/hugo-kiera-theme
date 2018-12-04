@@ -4,12 +4,17 @@
   
   <url>
     <loc>https://muuuuuuuuuu.github.io/hugo-kiera-theme/posts/</loc>
-    <lastmod>2018-11-26T00:17:29+09:00</lastmod>
+    <lastmod>2018-12-04T23:47:52+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://muuuuuuuuuu.github.io/hugo-kiera-theme/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muuuuuuuuuu.github.io/hugo-kiera-theme/posts/six/</loc>
+    <lastmod>2018-12-04T23:47:52+09:00</lastmod>
   </url>
   
   <url>
@@ -142,6 +147,18 @@
   <url>
     <loc>https://muuuuuuuuuu.github.io/hugo-kiera-theme/categories/merge/</loc>
     <lastmod>2018-11-26T00:17:29+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://muuuuuuuuuu.github.io/hugo-kiera-theme/tags/method/</loc>
+    <lastmod>2018-12-04T23:47:52+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://muuuuuuuuuu.github.io/hugo-kiera-theme/categories/method/</loc>
+    <lastmod>2018-12-04T23:47:52+09:00</lastmod>
     <priority>0</priority>
   </url>
   
