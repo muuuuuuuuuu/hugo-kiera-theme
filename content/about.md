@@ -25,4 +25,4 @@ meta = "false"
 
 ・**railsチュートリアルのsample.app**<br>https://arcane-ocean-64138.herokuapp.com/
 
-・**hugoで作ったPort Folioサイト**<br>https://muuuuuuuuuu.github.io/Myproject/  
+・**hugoで作ったPort Folioサイト**<br>https://muuuuuuuuuu.github.io/hugo-creative-theme/ 

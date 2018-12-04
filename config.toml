@@ -3,7 +3,7 @@
 # title = "My New Hugo Site"
 
 
-baseurl = "https://muuuuuuuuuu.github.io/myproject3"
+baseurl = "https://muuuuuuuuuu.github.io/hugo-kiera-theme/"
 title = "muuuuuuuuuu blog"
 copyright = "Copyright &copy; 2018 - muuuuuuuuuu"
 canonifyurls = true
